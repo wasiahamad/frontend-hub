@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+        integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Portfolio website</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <ul class="links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i></li>
+                <p>Home</p>
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-user"></i></li>
+                <p>About</p>
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-list"></i></li>
+                <p>Services</p>
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-image"></i></li>
+                <p>Gallery</p>
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-comments"></i></li>
+                <p>Contant me</p>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="home-slide swiper-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I`m <span class="stylized-name">Wasi Ahmad</span>,</h1>
+                        <h2>A <span class="professions">Web Devloper</span></h2>
+                        <p class="heroline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
+                            facere ea beatae perferendis, aliquam modi hic suscipit laboriosam tempore! Rerum!
+                        </p>
+                        <div class="buttongroup"><button>Hire me</button><button>Contact me</button></div>
+                    </div>
+                    <div class="sideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="" alt="">
+                        <div class="button-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next Slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About me</h1>
+                        <h3 class="sub-heading">I`m Wasi Ahmad, <span class="professions">A Web Developer</span>
+                        </h3>
+                        <p class="aboutme-details">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas voluptatibus odio eaque
+                            voluptates iusto dicta officiis ad, eligendi repudiandae doloremque ex aspernatur
+                            impedit laudantium, delectus quidem deleniti, animi voluptate blanditiis? Obcaecati
+                            consequuntur officia aliquid vitae sed unde. Tempore ex ad exercitationem soluta velit
+                            modi. Et ducimus provident fuga deserunt aliquam.
+                        </p>
+                        <div class="about-me-devition">
+                            <div class="about-me-table">
+                                <li><span>Experiance</span>2+ years</li>
+                                <li><span>Country</span>India</li>
+                                <li><span>Avaibility</span>24/7</li>
+                                <li><span>Satiesfied Clients: </span>200+</li>
+                                <li><span>Age</span>20</li>
+                                <li><span>Phone</span>9350789538</li>
+                                <li><span>Language used</span>HTML, CSS, JS</li>
+                                <li><span>Degree</span>CS</li>
+                                <div class="buttongroup"><button>Hire me</button><button>Contact me</button></div>
+                            </div>
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 70%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Core Java</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>DSA</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width: 60%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide services">
+                    <h2 class="heading">Services</h2>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, facilis!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h2 class="heading">Gallery</h2>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                    <div class="project">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide contactMe">
+                    <h2 class="heading">Contact Me</h2>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile Number</h3>
+                        <p>1234567890</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Location</h3>
+                        <p>somewhere on earth</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Email</h3>
+                        <p>alexxwasi95@gmail.com</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Website</h3>
+                        <p>www.acd123.com</p>
+                    </div>
+                    <form action="">
+                        <h2>Send me a Message <div class="SocialLinks">
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea name="text" id="text" rows="10" placeholder="Type Your Message more..."></textarea>
+                        <button class="primary">Send</button>
+                    </form>
+                    <footer>
+                        <li>Copyright 2024 wasiahmad</li>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
