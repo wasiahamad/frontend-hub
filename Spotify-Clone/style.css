@@ -182,8 +182,6 @@ a {
 .artist {
     text-align: center;
     padding: 0.8rem;
-    /* margin-left: 1.5rem;
-    margin-top: 1.5rem; */
 }
 
 .artist:hover {
@@ -339,7 +337,6 @@ a {
 .album {
     width: 25%;
 }
-
 
 .album-cover img {
     width: 60px;
